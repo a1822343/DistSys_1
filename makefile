@@ -4,9 +4,7 @@
 .PHONY: clean test
 
 test:# all
-	ls
-	cd src
-	ls
+	ls -A
 
 clean:
 	rm -rf src/classes
