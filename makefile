@@ -4,7 +4,7 @@
 .PHONY: clean test
 
 test:# all
-	ls *
+	cat run_autograder
 
 clean:
 	rm -rf src/classes
