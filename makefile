@@ -1,9 +1,9 @@
-all: src/calculator/*.java
-	javac -d src/classes src/calculator/*.java
+#all: src/calculator/*.java
+#	javac -d src/classes src/calculator/*.java
 
 .PHONY: clean test
 
-test: all
+test:# all
 	cd ~
 	ls
 
