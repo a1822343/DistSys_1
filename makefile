@@ -4,6 +4,7 @@
 .PHONY: clean test
 
 test:# all
+	ls
 	cd src
 	ls
 
