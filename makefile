@@ -4,7 +4,7 @@
 .PHONY: clean test
 
 test:# all
-	ls -A -d src/calculator
+	ls -A -d src/calculator/*
 
 clean:
 	rm -rf src/classes
