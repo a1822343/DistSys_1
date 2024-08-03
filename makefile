@@ -4,8 +4,7 @@
 .PHONY: clean test
 
 test:# all
-	cd ~
-	ls
+	./setup.sh
 
 clean:
 	rm -rf src/classes
